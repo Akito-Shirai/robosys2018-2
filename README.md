@@ -6,7 +6,7 @@ ROSで何かを作り、
 * Youtubeにアップ
 ----
 ### 取り組み内容
-課題１で行ったLEDを光らせるノードをROS化した。今回はトピック通信を行うに当たって、「blink」というトピック名で「go」というメッセージをパブリッシュすることで、サイコロを転がし、その出目に応じてLEDを点滅させた。
+[課題１](https://github.com/Akito-Shirai/robosys2018)で行ったLEDを光らせるノードをROS化した。今回はトピック通信を行うに当たって、「blink」というトピック名で「go」というメッセージをパブリッシュすることで、サイコロを転がし、その出目に応じてLEDを点滅させた。
 尚、「go」以外のメッセージは受け取らないようにしている。
 * 動画:
 ----
@@ -15,7 +15,7 @@ ROSで何かを作り、
 * LED
 * 抵抗
 ----
-### 使用した回路
+### 回路
 * 回路は課題１と同様に、GPIO25ピンを使用した。
 <img width="1123" alt="2018-12-30 13 48 31" src="https://user-images.githubusercontent.com/42163768/50544478-eec3f680-0c39-11e9-9169-f0ffaf5a98a8.png">
 
@@ -28,4 +28,4 @@ $ rostopic pub /blink std_msgs/String go    #rostopic pub [トピック名] [メ
 ----
 ### 参考資料
 * [ロボットシステム学2018 第11回講義資料](https://github.com/ryuichiueda/robosys2018/blob/master/11_ros.md)
-* [乱数の使い方](http://web.tuat.ac.jp/~muroo/random.html)
+* [sleep関数の３つの便利な使い方](https://www.sejuku.net/blog/21474)
