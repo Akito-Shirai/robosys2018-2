@@ -8,7 +8,7 @@ ROSで何かを作り、
 ### 取り組み内容
 [課題１](https://github.com/Akito-Shirai/robosys2018)で行ったLEDを光らせるノードをROS化した。今回はトピック通信を行うに当たって、「blink」というトピック名で「go」というメッセージをパブリッシュすることで、サイコロを転がし、その出目に応じてLEDを点滅させた。
 尚、「go」以外のメッセージは受け取らないようにしている。
-* 動画:
+* [動画](https://youtu.be/-tFhewsYASs)
 ----
 ### 使用したもの
 * Raspberry Pi 3B+
